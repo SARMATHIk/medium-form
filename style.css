@@ -1,0 +1,219 @@
+/* Default code Starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #444444;
+
+  /* font-family: "Rajdhani", sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+  --primaryColor: #032c48;
+  --secondaryColor: #ef8bae;
+  --tertiaryColor: #0b81d1;
+  --textDarkColor: #000000;
+  --textLightColor: #efefef;
+  --lightColor: #ffffff;
+  --regularFont: 16px;
+  --headingFont: 54px;
+  --sebHeadingFont: 18px;
+  --paragraph: 16px;
+  --links-Buttons-Font: 16px;
+  --fontFamilyPrimary: "Rajdhani", sans-serif;
+  --fontFamilySecondary: "Merienda", cursive;
+}
+
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* Default code Ends here */
+
+/* :::project code starts here */
+header {
+  /* background-color: #d5a1ff; */
+  width: 100%;
+  height: auto;
+}
+.formContainer {
+  background-color: #44c3e4;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  margin: 2% 20%;
+  border-radius: 5px;
+}
+.loginForm {
+  /* background-color: #ca8114; */
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 190px 20px;
+}
+.signinPage {
+  background-color: #ffffff;
+  position: absolute;
+  padding: 160px 86px;
+  margin-left: -390px;
+  border-radius: 5px;
+}
+.signinPage h3 {
+  color: #8d248d;
+  font-size: 22px;
+  position: absolute;
+  padding-left: 50px;
+  top: 20%;
+}
+.formGroup {
+  /* background-color: #74aff3;; */
+
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 60px 15px;
+}
+.userName {
+  position: absolute;
+  top: 30%;
+  padding: 2px 5px 0 -50px;
+}
+.userName input {
+  padding: 10px 40px;
+  margin: 0 0 20px;
+  border: 2px solid #8d248d;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #eff0f1;
+}
+.userName i {
+  position: absolute;
+  top: 15%;
+  padding-left: 15px;
+}
+.password {
+  position: absolute;
+  top: 40%;
+  padding: 2px 5px 0 -50px;
+}
+.password input {
+  padding: 10px 40px;
+  border: 2px solid #8d248d;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #eff0f1;
+}
+.password i {
+  position: absolute;
+  top: 20%;
+  padding-left: 15px;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  padding: 2px 5px 0 -50px;
+}
+
+.btn button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #8d248d;
+  color: white;
+}
+h4 {
+  margin-top: 70%;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.iconsContainer {
+  position: absolute;
+  margin-top: 60%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  width: 150%;
+  justify-content: space-around;
+}
+.icons li {
+  list-style-type: none;
+  border: 1px solid #767676;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: -30%;
+}
+.icons li a {
+  text-decoration: none;
+  color: #767676;
+}
+.signupPage {
+  position: absolute;
+  display: flex;
+  left: 44%;
+
+  padding: 290px 200px;
+  border-radius: 5px;
+  background-image: url(./assests/image-removebg-preview.png);
+  background-color: #5f0d5f;
+  background-image: linear-gradient(90deg, #a831a5, transparent 70%),
+    url(./assests/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+h1 {
+  position: absolute;
+  margin-top: -65%;
+  margin-left: -60px;
+  color: #ffffff;
+}
+p {
+  position: absolute;
+  margin-top: -55%;
+  left: 10px;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.btn1 {
+  position: absolute;
+  top: 25%;
+  left: 150px;
+}
+.btn1 button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #8d248d;
+  color: white;
+}
